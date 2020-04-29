@@ -1,0 +1,17 @@
+git config --global user.name "Ricardo Santos"    // define user
+
+git config --global user.email "ricardo.eletris@hotmail.com"    // define o e-mail
+
+git config --global core.editor code             // define o editor no caso o visualcode
+
+git init       // acessar uma pasta via terminal de a tranforma em um repositorio
+
+git status // mostra com esta o repositorio
+
+git add arquivo  // inclui o arquivo no repositorio deixa ele como unstaged só assim que é possivel da commit
+
+//caso modifique o arquivo é necessario add novamente
+
+
+
+
