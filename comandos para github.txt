@@ -25,3 +25,12 @@ git show dew98d7w89e7d9w8e7dw7dwe9dw    // usando a hash vc encontra as mudança
 gir diff // mostra modificações que foram feitas isso somente quando o arquivo esta no modified antes do commit
 
 git commit -am "mudança em arquivo tal"    // se o arquivo já existe 
+
+git checkout comandos para github.txt   // volta o arquivo para antes da mudança mas isso se ele não foi add
+
+git reset HEAD // remover o arquivo do staged se o arquivo foi add
+
+// ai sim vc consegue utilizar o checkout para desfazer a mudança
+
+git reset --soft  --mixed  --hard  3lk2j4l23kj4k23jl4  // comando que matam o commit cado um é um nivel sempre selecionar um hash de commit anterior
+
