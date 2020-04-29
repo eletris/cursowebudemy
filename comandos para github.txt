@@ -34,3 +34,14 @@ git reset HEAD // remover o arquivo do staged se o arquivo foi add
 
 git reset --soft  --mixed  --hard  3lk2j4l23kj4k23jl4  // comando que matam o commit cado um é um nivel sempre selecionar um hash de commit anterior
 
+ssh-keygen -t rsa -b 4896 -C "ricardo.eletris@hotmail.com"    // dentro do git bash e cria uma chave publica
+
+por padrao ele cria em user .ssh/     usar o cd ~/.ssh/ para encontra-lo vc pode abri-lo com qualqeur editor exemplo code id_rsa.pub
+
+no git hub ir em settings > deploy keys chave e titulo pode ser o nome da maquina
+
+git remote add origin https://github.com/eletris/cursowebmoderno.git     // dentro do git na pasta local dar o comando para incluir no github
+
+git remote //mostra o repositorio remoto no git hub
+
+git push -u origin master    // joga todos os arquivos do master local e joga no origem no github
