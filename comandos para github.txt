@@ -23,3 +23,5 @@ git shortlog // log mais resumido
 git show dew98d7w89e7d9w8e7dw7dwe9dw    // usando a hash vc encontra as mudanças nesse commit
 
 gir diff // mostra modificações que foram feitas isso somente quando o arquivo esta no modified antes do commit
+
+git commit -am "mudança em arquivo tal"    // se o arquivo já existe 
