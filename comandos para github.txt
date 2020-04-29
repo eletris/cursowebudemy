@@ -12,6 +12,14 @@ git add arquivo  // inclui o arquivo no repositorio deixa ele como unstaged só 
 
 //caso modifique o arquivo é necessario add novamente
 
+git commit -m "comentario da inclusão"      // no caso é bom informa o que foi feito antes da inserção
 
+git log // mostra o que foi realizado no git
 
+git log --author="Ricardo Santos"   ele procura ediçoes do autor
 
+git shortlog // log mais resumido
+
+git show dew98d7w89e7d9w8e7dw7dwe9dw    // usando a hash vc encontra as mudanças nesse commit
+
+gir diff // mostra modificações que foram feitas isso somente quando o arquivo esta no modified antes do commit
