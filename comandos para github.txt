@@ -61,3 +61,10 @@ o merge junta os commits e gera um commit extra com a junção dos commits
 o rebase recoloca o commit de uma branch separada e coloca dentro do master em sequencia. dando a sequencia nos commit
 
 git merge jatinox    // como master vc da o merge da branch que precisa
+
+git log --graph // mostra os processo de commit em sequencia
+
+git rebase branch 
+
+criando um arquvo .gitignore dentro dele vc pode definir tipos de arquivos ou arquivos que vão ser ignorados pelo git
+
