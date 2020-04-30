@@ -47,3 +47,15 @@ git remote //mostra o repositorio remoto no git hub
 git push -u origin master    // joga todos os arquivos do master local e joga no origem no github
 
 git clone git@github.com:eletris/cursowebudemy.git     // puxa todo o diretorio para outro local ou maquina
+
+git checkout -b testing   // cria um novo bran e faz acesso
+
+git branch    // mostra os branch e mostra em qual acesso 
+
+git checkout teste   // vai pro brench que quiser
+
+git branch -D testing   // remove o branch
+
+o merge junta os commits e gera um commit extra com a junção dos commits
+
+o rebase recoloca o commit de uma branch separada e coloca dentro do master em sequencia. dando a sequencia nos commit
