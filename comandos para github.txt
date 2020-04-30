@@ -45,3 +45,5 @@ git remote add origin git@github.com:eletris/cursowebmoderno.git     // dentro d
 git remote //mostra o repositorio remoto no git hub
 
 git push -u origin master    // joga todos os arquivos do master local e joga no origem no github
+
+git clone git@github.com:eletris/cursowebudemy.git     // puxa todo o diretorio para outro local ou maquina
