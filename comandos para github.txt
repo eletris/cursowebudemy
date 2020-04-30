@@ -40,7 +40,7 @@ por padrao ele cria em user .ssh/     usar o cd ~/.ssh/ para encontra-lo vc pode
 
 no git hub ir em settings > deploy keys chave e titulo pode ser o nome da maquina
 
-git remote add origin https://github.com/eletris/cursowebmoderno.git     // dentro do git na pasta local dar o comando para incluir no github
+git remote add origin git@github.com:eletris/cursowebmoderno.git     // dentro do git na pasta local dar o comando para incluir no github
 
 git remote //mostra o repositorio remoto no git hub
 
