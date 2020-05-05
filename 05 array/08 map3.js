@@ -1,9 +1,9 @@
-Array.prototype.map2 = function(callback) {
-    const newArray = []
-    for (let i = 0; i < this.length; i++) {
-        newArray.push(callback(this[i], i, this))
+Array.prototype.map2 = function(callback) {  //funcionameto interno do map
+    const newArray = []     //cria un novo array vazio
+    for (let i = 0; i < this.length; i++) {    // percorre todos os valores do array original
+        newArray.push(callback(this[i], i, this))   //para cada elemento percorrido ele da um push em new array informando valor indice e array
     }
-    return newArray
+    return newArray  //e retorna new array
 }
 
 const carrinho = [
@@ -18,5 +18,5 @@ const carrinho = [
 const paraObjeto = json => JSON.parse(json)
 const apenasPreco = produto => produto.preco
 
-const resultado = carrinho.map2(paraObjeto).map2(apenasPreco)
+const resultado = carrinho.map2(paraObjeto).map2(apenasPreco)  //então esse map 2 é o map criado
 console.log(resultado)
