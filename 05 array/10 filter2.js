@@ -1,4 +1,4 @@
-Array.prototype.filter2 = function(callback) {
+Array.prototype.filter2 = function(callback) {    //funcionamento do filter
     const newArray = []
     for (let i = 0; i < this.length; i++) {
         if(callback(this[i], i, this)) {
