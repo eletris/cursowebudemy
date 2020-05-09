@@ -26,7 +26,7 @@ console.log(notas1)
 
 console.log([].concat([ 8.1, 9.3 ], [ 8.9, 7.3 ]))
 
-Array.prototype.flatMap = function(callback) {
+Array.prototype.flatMap = function(callback) {   //criação do flatmap em array
     return Array.prototype.concat.apply([], this.map(callback))
 }
 

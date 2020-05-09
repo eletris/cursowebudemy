@@ -1,5 +1,5 @@
 Array.prototype.reduce2 = function(callback, valorInicial) {
-    const indiceInicial = valorInicial ? 0 : 1
+    const indiceInicial = valorInicial ? 0 : 1  //se valor inicial for setado começa a contar do 0 se não do 1
     let acumulador = valorInicial || this[0]
     for (let i = indiceInicial; i < this.length; i++) {
         acumulador = callback(acumulador, this[i], i, this)
