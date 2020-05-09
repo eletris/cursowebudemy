@@ -12,7 +12,7 @@ console.log(filha2.nome)
 filha2.nome = 'Carla'
 console.log(`${filha2.nome} tem cabelo ${filha2.corCabelo}`)  // vai manter o nome bia pois foi writable:false
 
-console.log(Object.keys(filha1))  // lista as chaves campos de cada obj
+console.log(Object.keys(filha1))  // lista as chaves campos de cada obj no caso filha só tem nome a cor de cabelo vem do pai
 console.log(Object.keys(filha2))
 
 for(let key in filha2) {

@@ -3,8 +3,8 @@ const notas = [7.7, 6.5, 5.2, 8.9, 3.6, 7.1, 9.0]
 // Sem callback
 const notasBaixas1 = []
 for (let i in notas) {     // definine o i como indice do array notas
-    if (notas[i] < 7) {    // se o i de notas for menor que 7
-        notasBaixas1.push(notas[i])   // incluir no array de notas baixas os valores de notas
+    if (notas[i] < 7) {    // se o valor do conteudo no indice i de notas for menor que 7
+        notasBaixas1.push(notas[i])   // incluir no array de notas baixas o valor pertencente ao indice
     }
 }
 

@@ -9,10 +9,10 @@ const volvo = {
 }
 
 console.log(ferrari.prototype)  // objeto ferrari nãon tem o atributo prototype
-console.log(ferrari.__proto__)    // __proto ira procurar em todos os prototipos ou pais
+console.log(ferrari.__proto__)    // __proto__ é um atributo que geralmente esta no objeto pai de ferrari nessa caso não esta há então aponta para o Object.prototype
 console.log(ferrari.__proto__ === Object.prototype)  // é verdadeiro onde proto é igual esta dentro de object
-console.log(volvo.__proto__ === Object.prototype) // 
-console.log(Object.prototype.__proto__ === null)
+console.log(volvo.__proto__ === Object.prototype) // tbm aposta para Object.prototype
+console.log(Object.prototype.__proto__ === null) // Object.prototype é o final ou seja não tem __proto__
 
 function MeuObjeto() {}
 console.log(typeof Object, typeof MeuObjeto)
