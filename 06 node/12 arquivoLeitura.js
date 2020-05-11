@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require('fs')  //fs que é o filesystem que já é um modulo core do node
 
 const caminho = __dirname + '/arquivo.json'
 
@@ -15,7 +15,7 @@ fs.readFile(caminho, 'utf-8', (err, conteudo) => {
 const config = require('./arquivo.json')
 console.log(config.db)
 
-fs.readdir(__dirname, (err, arquivos) => {
+fs.readdir(__dirname, (err, arquivos) => {  //ler diretorio __dirname = diretorio atual
     console.log('Conteúdo da pasta...')
     console.log(arquivos)
 })

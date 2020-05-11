@@ -27,3 +27,8 @@ axios.get(url).then(response => {   //utilizando o axios para pega o conteudo da
 // que ira criar o node_modules e uma dependencia chamada axios isso tudo é informado dentro do packages.json
 
 //o package-lock.json especifica exatamente as versoes utilizadas no projeto
+
+//para recriar um node_modules com as dependencias corretas danto um npm i     ele já pega as dependencias que estaõ definidas no packge.json
+
+// se der um npm start ele vai seguir com o que foi definido em script dentro do package.json com o nodemon
+
