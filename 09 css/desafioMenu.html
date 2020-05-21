@@ -153,8 +153,8 @@
             console.log(oldURL, newURL)
             const oldLink = document.querySelector(`.menu a[href='#${oldURL}']`)
             const newLink = document.querySelector(`.menu a[href='#${newURL}']`)
-            oldLink && oldLink.classList.remove('selected')
-            newLink && newLink.classList.add('selected')
+            oldLink && oldLink.classList.remove('selected')  //remover uma classe no href #
+            newLink && newLink.classList.add('selected')   //adiconar uma classe de selected na lista
         }
     </script>
 </body>
