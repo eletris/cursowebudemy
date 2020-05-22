@@ -12,7 +12,7 @@
     <script>              
         document.querySelector('#primeiro').classList.add('destaque')
 
-        const selecionar = seletor =>
+        const selecionar = seletor => /* cria funções que recebe um selector que para cada um atribui ou retira a classe destaque*/
             document.querySelectorAll(seletor).forEach(e => e.classList.add('destaque'))
         const deselecionar = seletor =>
             document.querySelectorAll(seletor).forEach(e => e.classList.remove('destaque'))
