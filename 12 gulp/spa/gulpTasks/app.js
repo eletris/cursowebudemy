@@ -22,7 +22,7 @@ function appCSS() {
 
 function appJS() {
     return gulp.src('src/assets/js/**/*.js')
-        .pipe(babel({ presets: ['ENV'] }))
+        .pipe(babel({ presets: ['env'] }))
         .pipe(uglify())
         .pipe(concat('app.min.js'))
         .pipe(gulp.dest('build/assets/js'))
